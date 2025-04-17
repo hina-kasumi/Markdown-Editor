@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  width: 97vw;
+  padding: 1rem;
+}
+
+.sides {
+  height: 85vh;
+  border: 1px solid white;
+  padding: 1rem;
+  overflow-y: auto;
+
+}
+
+.divider {
+  cursor: ew-resize;
+  width: 0.5rem;
+  user-select: none;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+
+  .sides {
+    width: 100% !important;
+    height: 40vh;
+  }
+}
