@@ -2,6 +2,10 @@
 
 Một ứng dụng web đơn giản cho phép người dùng **tải lên và xem nội dung của các tệp `.md` (Markdown)** dưới dạng HTML dễ đọc.
 
+## ⚡Truy cập trang web
+
+Truy cập ứng dụng tại đây 🚀: [Markdown Editor](https://hina-kasumi.github.io/Markdown-Editor/)
+
 ## 🚀 Tính năng chính
 
 - 📂 **Upload file `.md`** từ máy tính và hiển thị nội dung ngay lập tức.
