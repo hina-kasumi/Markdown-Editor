@@ -1,8 +1,12 @@
+@use "./../../App";
+
 .header {
+  background-color: App.$bg-color;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
+  color: App.$text-color;
 
   input[type="file"] {
     display: none;

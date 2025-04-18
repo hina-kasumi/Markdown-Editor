@@ -1,7 +1,12 @@
+$bg-color: #242424;
+$text-color: white;
+
 .container {
   display: flex;
   width: 97vw;
   padding: 1rem;
+  background-color: $bg-color;
+  color: $text-color !important;
 }
 
 .sides {
@@ -9,7 +14,7 @@
   border: 1px solid white;
   padding: 1rem;
   overflow-y: auto;
-
+  background-color: $bg-color;
 }
 
 .divider {
