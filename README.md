@@ -19,8 +19,9 @@ Truy cập ứng dụng tại đây 🚀: [Markdown Editor](https://hina-kasumi.
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/en) (v22.12.0 trở lên)
 - Trình duyệt hiện đại (Chrome, Firefox, Edge…)
+- [Docker](https://www.docker.com/) (Nếu không muốn cài Git và Node.js)
 
-## 📦 Cài đặt & chạy thử
+## 📦 Cài đặt & chạy thử với Nodejs
 
 ```bash
 # Clone project
@@ -34,4 +35,16 @@ npm install
 
 # Chạy ứng dụng
 npm run dev
+```
+
+## 📦 Cài đặt & chạy thử với Docker
+
+### 📦Với image của dev
+
+```bash
+# Dev (Phát triển)
+docker run -d -p 3000:3000 hinakasumi/markdown-editor
+
+# Production (Sản phẩm)
+docker run -d -p 3000:80 hinakasumi/markdown-editor-production
 ```

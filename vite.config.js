@@ -4,8 +4,12 @@ import react from "@vitejs/plugin-react";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/Markdown-Editor",
+  base: "./",
   server: {
     port: 3000,
+    host: '0.0.0.0'
   },
+  build: {
+    chunkSizeWarningLimit: 1600,
+  }
 });
