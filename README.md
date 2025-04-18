@@ -23,6 +23,9 @@ Truy cập ứng dụng tại đây 🚀: [Markdown Editor](https://hina-kasumi.
 
 ## 📦 Cài đặt & chạy thử với Nodejs
 
+Sau khi chạy hết lệnh bên dưới hãy truy cập tại đây: 
+[Markdown Editor](http://localhost:3000/).
+
 ```bash
 # Clone project
 git clone https://github.com/hina-kasumi/markdown-editor.git
@@ -40,6 +43,9 @@ npm run dev
 ## 📦 Cài đặt & chạy thử với Docker
 
 ### 📦Với image của dev
+
+Sau khi chạy 1 trong 2 lệnh bên dưới hãy truy cập tại đây: 
+[Markdown Editor](http://localhost:3000/).
 
 ```bash
 # Dev (Phát triển)
